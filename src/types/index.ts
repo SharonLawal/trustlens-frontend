@@ -1,5 +1,5 @@
 // This enum must match your backend and agent
-export enum ActionType {
+export const enum ActionType {
   FILE_ACCESS = 'file_access',
   FILE_DOWNLOAD = 'file_download',
   FILE_UPLOAD = 'file_upload',
@@ -42,7 +42,7 @@ export interface ActivityFeedResponse {
 }
 
 // From your backend models.py
-export enum Severity {
+export const enum Severity {
   LOW = 'low',
   MEDIUM = 'medium',
   HIGH = 'high',
@@ -125,7 +125,7 @@ export interface DashboardData {
   open_alerts: Alert[]; // Reuse Alert type
 }
 
-export enum AuditAction {
+export const enum AuditAction {
   EMPLOYEE_SYNCED = 'employee_synced',
   EMPLOYEE_VERIFIED = 'employee_verified',
   EMPLOYEE_DEACTIVATED = 'employee_deactivated',

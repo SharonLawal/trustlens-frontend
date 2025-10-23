@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import type { DashboardData, Activity, Alert } from '../types';
-import { dashboardService } from '../services/dashboardService';
 import { Loader2, AlertCircle, Users, ShieldAlert, Activity as ActivityIcon, TrendingUp } from 'lucide-react';
 import { ActionType, Severity } from '../types';
 import StatsCard from '../components/dashboard/StatsCard';
