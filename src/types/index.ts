@@ -1,5 +1,4 @@
 // -------------------- Activity Types --------------------
-// Replaced enum with string literal union type
 export type ActionType = 
   | 'file_access'
   | 'file_download'
