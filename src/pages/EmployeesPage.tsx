@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import type { Employee } from '../types';
-import { employeeService } from '../services/employeeService';
 import EmployeeList from '../components/employees/EmployeeList';
 import { Loader2, AlertCircle, Users } from 'lucide-react';
 

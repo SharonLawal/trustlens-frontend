@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import type { Activity } from '../types';
-import { activityService } from '../services/activityService';
 import { ActionType } from '../types';
 import ActivityFeed from '../components/activities/ActivityFeed';
 import { AlertCircle, Loader2 } from 'lucide-react';

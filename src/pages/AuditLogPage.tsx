@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import type { AuditLog } from '../types';
 import { AuditAction } from '../types';
-import { auditLogService } from '../services/auditLogService';
 import AuditLogTable from '../components/audit/AuditLogTable';
 import { Loader2, AlertCircle, ScrollText } from 'lucide-react';
 

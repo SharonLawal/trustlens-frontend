@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import type { Alert, AlertStatus } from '../types';
-import { ActionType, Severity } from '../types';
-import { alertService } from '../services/alertService';
+import { Severity } from '../types';
 import AlertList from '../components/alerts/AlertList';
 import { Loader2, AlertCircle, ShieldAlert } from 'lucide-react';
 

@@ -2,7 +2,6 @@ import React from 'react';
 import type { Alert } from '../../types';
 import SeverityBadge from '../common/SeverityBadge';
 import { Link } from 'react-router-dom';
-import { ShieldAlert } from 'lucide-react';
 
 interface AlertPanelProps {
   alerts: Alert[];
